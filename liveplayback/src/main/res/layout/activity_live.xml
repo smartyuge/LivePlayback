@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22000000"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/fl_videoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack">
+
+        <com.hejunlin.liveplayback.ijkplayer.media.IjkVideoView
+            android:id="@+id/videoview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@color/colorBlack">
+        </com.hejunlin.liveplayback.ijkplayer.media.IjkVideoView>
+
+        <RelativeLayout
+            android:id="@+id/rl_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#de262a3b">
+
+            <TextView
+                android:id="@+id/tv_load_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pb_loading"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="6dp"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+            <ProgressBar
+                android:id="@+id/pb_loading"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="60dp"
+                android:indeterminate="false"
+                android:indeterminateDrawable="@drawable/video_loading"
+                android:padding="5dp" />
+        </RelativeLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/player_panel_background_color">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="24dp"
+                android:text="Android TV开发总结（六）构建一个TV app的直播节目实例"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="18dp"
+                android:textColor="@color/white"/>
+            
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="20dp"
+                android:layout_toRightOf="@id/tv_title"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
