@@ -1,5 +1,8 @@
 /*
  * Copyright (C) 2016 hejunlin <hejunlin2013@gmail.com>
+ * 
+ * Github:https://github.com/hejunlin2013/LivePlayback
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -22,7 +25,10 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.hejunlin.liveplayback.widget.MetroViewBorderImpl;
-
+/**
+ * Created by hejunlin on 2016/10/28.
+ * blog: http://blog.csdn.net/hejjunlin
+ */
 public class MainActivity extends Activity {
 
     private MetroViewBorderImpl mMetroViewBorderImpl;

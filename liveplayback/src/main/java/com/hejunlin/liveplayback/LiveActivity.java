@@ -1,5 +1,8 @@
 /*
  * Copyright (C) 2016 hejunlin <hejunlin2013@gmail.com>
+ * 
+ * Github:https://github.com/hejunlin2013/LivePlayback
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -35,7 +38,10 @@ import java.util.Calendar;
 import tv.danmaku.ijk.media.player.IMediaPlayer;
 import tv.danmaku.ijk.media.player.IjkMediaPlayer;
 
-
+/**
+ * Created by hejunlin on 2016/10/28.
+ * blog: http://blog.csdn.net/hejjunlin
+ */
 public class LiveActivity extends Activity {
 
     private IjkVideoView mVideoView;
@@ -58,7 +64,7 @@ public class LiveActivity extends Activity {
         mLoadingText = (TextView) findViewById(R.id.tv_load_msg);
         mTextClock = (TextView)findViewById(R.id.tv_time);
         mTextClock.setText(getDateFormate());
-        mLoadingText.setText("节目加载中...");
+        mLoadingText.setText("鑺傜洰鍔犺浇涓�..");
         initVideo();
     }
 
@@ -112,7 +118,7 @@ public class LiveActivity extends Activity {
             public boolean onError(IMediaPlayer mp, int what, int extra) {
                 if (mRetryTimes > CONNECTION_TIMES) {
                     new AlertDialog.Builder(LiveActivity.this)
-                            .setMessage("视频暂时不能播放")
+                            .setMessage("瑙嗛鏆傛椂涓嶈兘鎾斁")
                             .setPositiveButton(R.string.VideoView_error_button,
                                     new DialogInterface.OnClickListener() {
                                         public void onClick(DialogInterface dialog, int whichButton) {
