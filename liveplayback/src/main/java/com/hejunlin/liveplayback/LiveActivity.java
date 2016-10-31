@@ -64,7 +64,7 @@ public class LiveActivity extends Activity {
         mLoadingText = (TextView) findViewById(R.id.tv_load_msg);
         mTextClock = (TextView)findViewById(R.id.tv_time);
         mTextClock.setText(getDateFormate());
-        mLoadingText.setText("鑺傜洰鍔犺浇涓�..");
+        mLoadingText.setText("节目加载中...");
         initVideo();
     }
 
@@ -118,7 +118,7 @@ public class LiveActivity extends Activity {
             public boolean onError(IMediaPlayer mp, int what, int extra) {
                 if (mRetryTimes > CONNECTION_TIMES) {
                     new AlertDialog.Builder(LiveActivity.this)
-                            .setMessage("瑙嗛鏆傛椂涓嶈兘鎾斁")
+                            .setMessage("节目暂时不能播放")
                             .setPositiveButton(R.string.VideoView_error_button,
                                     new DialogInterface.OnClickListener() {
                                         public void onClick(DialogInterface dialog, int whichButton) {

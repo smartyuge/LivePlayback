@@ -31,9 +31,10 @@ import android.widget.TextView;
  */
 public class OptionItemAdapter extends RecyclerView.Adapter<OptionItemAdapter.ViewHolder> {
 
-    // 鏁版嵁闆�    private String[] mDataList = new String[] {
-            "CCTV1缁煎悎","CCTV2璐㈢粡","CCTV3缁艰壓","CCTV4涓枃鍥介檯","CCTV5浣撹偛","CCTV6鐢靛奖","CCTV7鍐涗簨鍐滀笟","CCTV8鐢佃鍓�, "CCTV9绾綍",
-            "CCTV10绉戞暀","CCTV11鎴忔洸","CCTV12绀句細涓庢硶","CCTV13鏂伴椈","CCTV14灏戝効","CCTV15闊充箰","绗竴鍓у満","婀栧崡鍗"
+    // 数据集
+    private String[] mDataList = new String[] {
+            "CCTV1综合","CCTV2财经","CCTV3综艺","CCTV4中文国际","CCTV5体育","CCTV6电影","CCTV7军事农业","CCTV8电视剧", "CCTV9纪录",
+            "CCTV10科教","CCTV11戏曲","CCTV12社会与法","CCTV13新闻","CCTV14少儿","CCTV15音乐","第一剧场","湖南卫视"
     };
 
     private String [] mUrlList = new String[]{
