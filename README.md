@@ -1,5 +1,7 @@
 # Android TV直播电视节目
 
+PS:注册过魅族帐号的同鞋，帮忙投下魅族开发者大赛·最佳人气奖投票：http://bbs.flyme.cn/forum.php?mod=viewthread&tid=1277760 ,求投票我的8号，8号作品《SuperVideo》，这个项目到时也会有计划开源，谢谢啦！
+
 传统电视直播节目,在Android TV上起着越来越重要的作用,央视,各地卫视,满足观众日益增长的多元化需求
 看下效果图:
 
