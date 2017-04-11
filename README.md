@@ -1,6 +1,7 @@
 # Android TV直播电视节目
 
 更多技术博客，项目，欢迎关注公众号：
+
 ![这里写图片描述](https://github.com/hejunlin2013/RedPackage/blob/master/image/qrcode.jpg)
 
 Android TV开发交流群：135622564 
