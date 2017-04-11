@@ -1,5 +1,8 @@
 # Android TV直播电视节目
 
+更多技术博客，项目，欢迎关注公众号：
+![这里写图片描述](https://github.com/hejunlin2013/RedPackage/blob/master/image/qrcode.jpg)
+
 Android TV开发交流群：135622564 
 
 传统电视直播节目,在Android TV上起着越来越重要的作用,央视,各地卫视,满足观众日益增长的多元化需求
