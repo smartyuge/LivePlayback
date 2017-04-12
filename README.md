@@ -295,7 +295,8 @@ public class LiveActivity extends Activity {
                 android:layout_height="60dp"
                 android:layout_centerInParent="true"
                 android:layout_marginTop="60dp"
-                android:indeterminate="false"                  android:indeterminateDrawable="@drawable/video_loading"
+                android:indeterminate="false"                  
+                android:indeterminateDrawable="@drawable/video_loading"
                 android:padding="5dp" />
         </RelativeLayout>
 
@@ -335,7 +336,7 @@ public class LiveActivity extends Activity {
 - 所有的size切勿直接写死，用  android:layout_marginTop="@dimen/dimen_20dp"表示，string值统一写到string.xml中，这些基本的规范，会让你提高不少效率。
 
 
-####欢迎关注我的个人公众号，android 技术干货，问题深度总结，FrameWork源码解析，插件化研究，最新开源项目推荐
+#### 欢迎关注我的个人公众号，android 技术干货，问题深度总结，FrameWork源码解析，插件化研究，最新开源项目推荐
 ![这里写图片描述](https://github.com/hejunlin2013/RedPackage/blob/master/image/qrcode.jpg)
 
 License
